@@ -18,10 +18,6 @@ app = Flask(__name__)
 
 #Add config info
 
-
-
-
-app.secret_key = 'FINSIGHT'
 newsdataio_url = "https://newsdata.io/api/1/news"  # Example URL
 api_key = ""
 # Initialize Firebase Admin SDK
