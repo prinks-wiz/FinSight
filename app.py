@@ -16,7 +16,6 @@ app = Flask(__name__)
 
 #Add your config info
 
-
 Config = {
  
 }
@@ -26,11 +25,11 @@ Config = {
 
 app.secret_key = 'FINSIGHT'
 newsdataio_url = "https://newsdata.io/api/1/news"  # Example URL
-api_key = "pub_4118227a23a6ec19dc4d2edaf4e397d9e2fd3"
+api_key = ""
 # Initialize Firebase Admin SDK
 cred = credentials.Certificate(Config)  # Update with your service account key
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://investment-insights-ae2e6-default-rtdb.firebaseio.com/'
+    'databaseURL': ''
 })
 
 # Define your Firebase database reference
