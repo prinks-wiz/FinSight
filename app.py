@@ -14,11 +14,9 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
-#Add your config info
 
-Config = {
- 
-}
+
+#Add config info
 
 
 
