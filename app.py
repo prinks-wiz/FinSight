@@ -14,19 +14,20 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
+#Add your config info
 
 
 Config = {
   "type": "service_account",
   "project_id": "investment-insights-ae2e6",
-  "private_key_id": "80a60233cf228ce70a6771d7e191ce354457ceb9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC20HGNMbxKaXzu\nR+iUcwm6oJbaHtaU7VMBoSHoUY2JSWxGpZxZ8JYbetsNF9AmV/Klj3WbaBBlZ9Mt\nRR5mNMoenumvOC8R5lpXD2w6IGxtyoGlP2/Oo1d9EQw3UGC4IE8bqyBylNIYnuSF\nDaYFwwuZEZND6ppb4kNNW6/LYZ/d5LOSP5mV44ryWg0e7FF+oNRVJUmicXjSUhfr\nT3BVf3zUyeNTI7RGkv9VXH8AIae3iMpvE74pwlaVWxaFYwr+kbxwmI5Tp9OUvifU\nEOYLWY6tH77kfFq3j6uNsLsKHEctlqnZ8Jqquck6V0fTiYqmALTQCrldjI402ane\nX7fSBBLJAgMBAAECggEABz3SgalKsBflnvqyN88mv4HE9/bowRV1iEb9tNomJR4H\nb/T3cIibKZOAQdCDqkEpl21LV1CT9bBbKRvnzFyi9PuOfiZXlvns8i3mN5c5NFAl\nOop8v06xFH8sYLSKYEDHYW0x59gFSnxgyPR1cxz6xKFxl+sfGiyoRdQv7np7fqqT\nW7pVmVvv8l9BrVf6OnykteGnnZ6SQyj8AZX9pD0svVT2oIGqOAqlvGfSCF70Fwz7\nyCsEhFs0mq40KYgkqHT3szzIn/IHQnmutL2OTopNwu+EdXqcBb04Ilopf/Km4hxn\npnF03W3fkw676858VIHaO0n33bC0OvLpLAXBfHW00QKBgQDgqz6GHVFEXkGh0GRN\nZJg2zpkSoolA/y8dukBjpGVDCr7Si98h+K5aLNUakWp2VxNs4j2P/5CoqEfm7ywO\npkMDdYyGYS+QXa3tz5RDWm0ZhSJT+ibTekerITMMae3p/FpejGoGu89AKowjbi5s\nxi3iDox4KbgJm4LPrhgIXQ6EnwKBgQDQTvkOX5HAoZXZscUyzHAKikJN8xGltNaJ\nH+Z/QfvBoNooTPVpgeAhgSCYFkLIpiu3xC2ubH1R1SGAFM3YY/sVQy8mpIA64cTF\nBT/70/hC8D704CuRdfXFTFBVqmwDk4ZHE9OQfjodrb3U3D5O4sOQYAsoYra+nihL\ngHWwBvyHlwKBgBZLB7Y5HIJDNBIBYqKHU89Eas39kM8BQ0SY4aDBhEbFvy+XL3no\neix6fF7ZhQ3fEA9i16b9PfZuVEwm+WEuwEGMnXgMFrMliIerbFPOmjrJCiH5FXcw\nkAH8Flup+zCXmMP+/NpUMnl0f1lYqoSimZTvyqJ1yUwywSUoajwSN8mTAoGAdHAA\nZVlkZnGsCpCE8x01b57S6zF4ZtDLrsCHHhErAZPA/g/uifhP6Up9hqXC1NeVzlW5\nVytLbaed3zNB0LgqTDtOquH+z2sNizehCUn2Fqyl9Ekt8VQneg5rRUdKs0EOKMLb\nWoRERfytBMPLjFrTB+u3sO5kye4sBfAbWLa/B6cCgYBzADkZ2/8Djf71c/x9a/n6\na4hvOwZc+zportMNP9pWpDyhbIlshqbzhirALrEiW1Klpb4ZbEHkFdkVq/1AISns\n3PXqwyPj/CyMGJt4OYnRMMYtf5/AHfJDLBjjxX2PcYLbEEjei4daWvnzGdqFBKM9\nsx782WBp+Q73iNhQFtsG6Q==\n-----END PRIVATE KEY-----\n",
+  "private_key_id":"",
+  "private_key": "",
   "client_email": "firebase-adminsdk-ea3zo@investment-insights-ae2e6.iam.gserviceaccount.com",
   "client_id": "109015259047750330192",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ea3zo%40investment-insights-ae2e6.iam.gserviceaccount.com",
+  "client_x509_cert_url": "",
   "universe_domain": "googleapis.com"
 }
 
